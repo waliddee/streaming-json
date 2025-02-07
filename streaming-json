@@ -1,0 +1,42 @@
+{
+    "movie": {
+        "status": "success",
+        "type": "movie",
+        "title": "Beispiel Film",
+        "year": 2023,
+        "imdb_id": "tt1234567",
+        "stream_url": "https://yourstreamingserver.com/path/to/movie.mp4",
+        "poster": "https://yourimagehost.com/path/to/poster.jpg",
+        "subtitles": [
+            {
+                "language": "Deutsch",
+                "url": "https://yourserver.com/path/to/german-subtitles.vtt"
+            },
+            {
+                "language": "Französisch",
+                "url": "https://yourserver.com/path/to/french-subtitles.vtt"
+            }
+        ]
+    },
+    "tv": {
+        "status": "success",
+        "type": "tv",
+        "title": "Beispiel Serie",
+        "year": 2023,
+        "imdb_id": "tt7654321",
+        "season": 1,
+        "episode": 2,
+        "stream_url": "https://yourstreamingserver.com/path/to/episode.mp4",
+        "poster": "https://yourimagehost.com/path/to/show-poster.jpg",
+        "subtitles": [
+            {
+                "language": "Deutsch",
+                "url": "https://yourserver.com/path/to/german-subtitles.vtt"
+            },
+            {
+                "language": "Spanisch",
+                "url": "https://yourserver.com/path/to/spanish-subtitles.vtt"
+            }
+        ]
+    }
+}“Ajout du fichier streaming_data.json”
